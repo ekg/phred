@@ -1,0 +1,31 @@
+{
+  "name": "phred",
+  "version": "1.0.0",
+  "description": "convert phred quality scores to and from other numerical representations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ekg/phred.git"
+  },
+  "keywords": [
+    "phred",
+    "quality score",
+    "bioinformatics",
+    "biology",
+    "sequencing",
+    "genomics"
+  ],
+  "author": "Erik Garrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekg/phred/issues"
+  },
+  "homepage": "https://github.com/ekg/phred",
+  "devDependencies": {
+    "tap-spec": "^2.1.1",
+    "tape": "^3.0.3"
+  }
+}
