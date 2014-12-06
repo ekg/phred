@@ -2,6 +2,8 @@
 
 [![NPM](https://nodei.co/npm/phred.png?global=true)](https://nodei.co/npm/phred/)
 
+[![Build Status](https://travis-ci.org/ekg/phred.svg)](https://travis-ci.org/ekg/phred)
+
 convert phred quality scores to and from other numerical representations
 
 ## Overview
@@ -10,11 +12,11 @@ convert phred quality scores to and from other numerical representations
 
 If the probability of error is P, the phred quality score Q is defined as `Q = -10 * log10(P)`.
 
-[(https://upload.wikimedia.org/math/2/7/9/27965b367978f44297efd5b3544bae04.png)](https://en.wikipedia.org/wiki/Phred_quality_score)
+[![q to p](https://upload.wikimedia.org/math/2/7/9/27965b367978f44297efd5b3544bae04.png)](https://en.wikipedia.org/wiki/Phred_quality_score)
 
 Inversely, `P = 10^(-Q/10)`:
 
-[(https://upload.wikimedia.org/math/5/b/c/5bc7e86d6002b0f824c1cc00b97e3047.png)](https://en.wikipedia.org/wiki/Phred_quality_score)
+[![p to q](https://upload.wikimedia.org/math/5/b/c/5bc7e86d6002b0f824c1cc00b97e3047.png)](https://en.wikipedia.org/wiki/Phred_quality_score)
 
 This library encapsulates conversions between error probabilities and phred scores.
 
