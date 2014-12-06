@@ -1,6 +1,6 @@
 {
   "name": "phred",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert phred quality scores to and from other numerical representations",
   "main": "index.js",
   "scripts": {
