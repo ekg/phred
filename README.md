@@ -28,6 +28,8 @@ npm install phred
 
 ## Usage
 
+A Phred object is provided that allows for manipulation of quality scores.
+
 ``` js
 var Phred = require('phred')
 
